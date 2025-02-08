@@ -2,6 +2,6 @@ import { Routes } from '@angular/router';
 import {MainComponent} from './page/main/main.component';
 
 export const routes: Routes = [
-  { path: '', redirectTo: 'home', pathMatch: 'full' },
-  { path: 'home', component: MainComponent }
+  { path: '', component: MainComponent},
+  { path: '**', redirectTo: '', pathMatch: 'full' }
 ];
