@@ -1,0 +1,13 @@
+.navbar .btn-outline-light {
+  border: 1px solid var(--bs-primary);
+
+  &:hover {
+    color: var(--bs-secondary);
+    background-color: var(--bs-primary);
+  }
+}
+
+.img-logo {
+  width: 105px;
+  height: 55px;
+}

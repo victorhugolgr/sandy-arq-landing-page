@@ -1,0 +1,62 @@
+.contact-us{
+  background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(/assets/images/contact-us3.webp) no-repeat,  center center;
+  background-size: cover;
+  @media only screen and (max-width: 600px) {
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(/assets/images/contact-us4.webp) no-repeat,  center center;
+    background-size: cover;
+  }
+
+}
+
+.contact-box {
+  margin-bottom: -60px;
+  margin-top: 90px;
+  position: relative;
+  background: #fff;
+  padding: 30px 40px 40px 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,.06)
+}
+
+.custom-form .alert {
+  padding: 11px
+}
+
+textarea.form-control {
+  height: auto !important
+}
+
+.form-control {
+  margin-bottom: 15px;
+  box-shadow: none !important;
+  height: 46px;
+  padding-left: 20px;
+  border: 1px solid #e7ecf0;
+  font-size: 14px;
+  border-radius: 5px
+}
+
+.form-control:focus {
+  border-color: #e7ecf0
+}
+
+textarea.form-control {
+  height: auto;
+  padding-top: 13.5px
+}
+
+.contact-icon i {
+  width: 40px;
+  height: 40px;
+  background: var(--bs-primary);
+  color: #fff;
+  font-size: 18px;
+  border-radius: 50%;
+  line-height: 40px;
+  text-align: center;
+  display: inline-block
+}
+
+.contact-info {
+  overflow: hidden
+}

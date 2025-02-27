@@ -1,0 +1,71 @@
+.service-box {
+  padding: 30px 25px;
+  border-radius: 10px;
+  border: 1px solid #e7d3d3;
+  margin-top: 50px !important;
+  min-height: 250px;
+}
+
+.service-box .services-icon {
+  font-size: 30px;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  text-align: center;
+  position: relative;
+  margin-top: -60px;
+  transition: all .5s;
+  background-color: var(--bs-light);
+  color: var(--bs-primary)
+}
+
+.service-box .services-icon i {
+  line-height: 60px
+}
+
+.service-box:hover {
+  background: #fff;
+  box-shadow: 0 0 20px rgba(0,0,0,.06);
+  border: 1px solid rgba(0,0,0,0)
+}
+
+.service-box:hover .services-icon {
+  transition: all .5s;
+  background-color: var(--bs-primary);
+  color: #fff !important
+}
+
+.service-box.active {
+  background: #fff;
+  border: 1px solid rgba(0,0,0,0);
+  box-shadow: 0 0 20px rgba(0,0,0,.06)
+}
+
+.service-box.active .services-icon {
+  background-color: var(--bs-primary);
+  color: #fff !important
+}
+
+.title-border {
+  display: inline-block;
+  width: 50px;
+  height: 2px;
+  background: var(--bs-primary);
+  position: relative;
+  z-index: 1;
+  right: 10px
+}
+
+.title-border:before {
+  position: absolute;
+  right: -15px;
+  top: 0;
+  content: "";
+  height: 2px;
+  width: 10px;
+  background: var(--bs-primary)
+}
+
+.title-border.two {
+  right: 0px;
+}
