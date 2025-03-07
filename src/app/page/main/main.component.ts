@@ -3,7 +3,7 @@ import {MasterheadComponent} from './masterhead/masterhead.component';
 import {AboutComponent} from './about/about.component';
 import {ServiceComponent} from './service/service.component';
 import {ProjectComponent} from './project/project.component';
-import {ContactUsComponent} from './contact-us/contact-us.component';
+import {ContactUsComponent} from '../../components/contact-us/contact-us.component';
 
 @Component({
   selector: 'app-main',
