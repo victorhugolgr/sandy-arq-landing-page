@@ -38,22 +38,17 @@
               }
             ],
             "styles": [
-              "src/styles.scss",
-              "node_modules/lightbox2/dist/css/lightbox.min.css"
+              "src/styles.scss"
             ],
             "scripts": [
-              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
-              "node_modules/jquery/dist/jquery.min.js",
-              "node_modules/lightbox2/dist/js/lightbox.min.js"
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
             ],
             "server": "src/main.server.ts",
             "prerender": {
               "discoverRoutes": true
             },
-            "outputMode": "server",
-            "ssr": {
-              "entry": "src/server.ts"
-            }
+            "outputMode": "static",
+            "ssr": false
           },
           "configurations": {
             "production": {

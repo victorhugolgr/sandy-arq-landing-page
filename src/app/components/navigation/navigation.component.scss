@@ -11,3 +11,23 @@
   width: 105px;
   height: 55px;
 }
+
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    display: flex;
+    padding-bottom: 0;
+  }
+  .navbar-brand {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
+  .navbar-toggler {
+    display: block;
+    margin-left: auto;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+  }
+}
