@@ -4,10 +4,12 @@ import {ProjectComponent} from './page/project/project.component';
 import {ContactComponent} from './page/contact/contact.component';
 import {ProjectCommercialComponent} from './page/project-commercial/project-commercial.component';
 import {RenderMode, ServerRoute} from '@angular/ssr';
+import {ProjectResidentialComponent} from './page/project-residential/project-residential.component';
 
 export const routes: Routes = [
   { path: '', component: MainComponent},
   { path: 'projects-commercial', component: ProjectCommercialComponent },
+  { path: 'projects-residential', component: ProjectResidentialComponent },
   { path: 'projects', component: ProjectComponent},
   { path: 'contact', component: ContactComponent}
 
